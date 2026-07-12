@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>EDIZ.WIN</title>
 
 <style>
@@ -12,11 +11,11 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial,Helvetica,sans-serif;
+font-family:Arial,sans-serif;
 }
 
 body{
-background:#0b0b0b;
+background:#090909;
 color:#fff;
 }
 
@@ -26,123 +25,112 @@ justify-content:space-between;
 align-items:center;
 padding:20px;
 background:#111;
-border-bottom:1px solid #333;
+border-bottom:2px solid #c8a34a;
+position:sticky;
+top:0;
+z-index:1000;
 }
 
 .logo{
-font-size:34px;
+font-size:38px;
 font-weight:bold;
 color:#FFD700;
-text-shadow:
-0 0 8px gold,
-0 0 20px #b8860b;
+text-shadow:0 0 10px gold,0 0 25px #b8860b;
 }
 
-.menu{
-display:flex;
-gap:12px;
-}
-
-.btn{
-padding:12px 24px;
-border-radius:10px;
-background:linear-gradient(180deg,#FFD700,#b8860b);
-color:#000;
+.menu a{
 text-decoration:none;
+color:#000;
+background:linear-gradient(#FFD700,#B8860B);
+padding:12px 22px;
+margin-left:10px;
+border-radius:10px;
 font-weight:bold;
-transition:.3s;
-}
-
-.btn:hover{
-transform:scale(1.05);
 }
 
 .hero{
 padding:70px 20px;
 text-align:center;
+background:linear-gradient(180deg,#111,#000);
 }
 
 .hero h1{
-font-size:48px;
+font-size:55px;
 color:#FFD700;
-margin-bottom:20px;
+margin-bottom:15px;
 }
 
 .hero p{
 font-size:20px;
 color:#ddd;
-margin-bottom:30px;
+margin-bottom:25px;
 }
 
-.bigButton{
-display:inline-block;
-padding:18px 45px;
-background:linear-gradient(180deg,#FFD700,#a97900);
+.hero button{
+background:linear-gradient(#FFD700,#b8860b);
+border:none;
+padding:18px 40px;
+font-size:20px;
+font-weight:bold;
+border-radius:15px;
+cursor:pointer;
+}
+
+.section{
+padding:45px 20px;
+}
+
+.section h2{
+color:#FFD700;
+margin-bottom:25px;
+font-size:32px;
+}
+
+.social-card{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#161616;
+padding:20px;
+margin-bottom:18px;
 border-radius:15px;
 text-decoration:none;
-color:#000;
+color:white;
+transition:.3s;
+border:1px solid #2a2a2a;
+}
+
+.social-card:hover{
+background:#242424;
+}
+
+.social-title{
 font-size:22px;
 font-weight:bold;
 }
 
-.section{
-padding:40px 20px;
-}
-
-.section h2{
-font-size:30px;
-margin-bottom:25px;
-color:#FFD700;
-}
-
-.social{
-display:flex;
-flex-direction:column;
+.partner-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
 gap:18px;
 }
 
-.card{
-background:#151515;
-padding:20px;
-border-radius:15px;
-border:1px solid #333;
-display:flex;
-justify-content:space-between;
-align-items:center;
-transition:.3s;
-text-decoration:none;
-color:white;
-}
-
-.card:hover{
-background:#202020;
-}
-
-.card span{
-font-size:20px;
-}
-
-.partnerGrid{
-display:grid;
-grid-template-columns:repeat(2,1fr);
-gap:20px;
-}
-
 .partner{
-background:#181818;
+background:#161616;
 padding:25px;
 border-radius:15px;
+border:1px solid #2d2d2d;
 text-align:center;
-border:1px solid #333;
+}
+
+.partner img{
+width:70px;
+margin-bottom:15px;
 }
 
 .partner h3{
 color:#FFD700;
-margin-bottom:15px;
-}
-
-.partner p{
-color:#ccc;
+margin-bottom:10px;
 }
 
 table{
@@ -152,24 +140,24 @@ margin-top:20px;
 }
 
 th{
-background:#FFD700;
-color:black;
-padding:15px;
+background:#d8af39;
+color:#000;
+padding:14px;
 }
 
 td{
-padding:15px;
-border-bottom:1px solid #333;
-text-align:center;
+padding:14px;
+border-bottom:1px solid #2b2b2b;
 }
 
 footer{
-padding:40px;
+padding:35px;
 text-align:center;
 color:#999;
 }
 
 </style>
+
 </head>
 
 <body>
@@ -179,8 +167,8 @@ color:#999;
 <div class="logo">👑 EDIZ</div>
 
 <div class="menu">
-<a href="#" class="btn">Giriş Yap</a>
-<a href="#" class="btn">Kayıt Ol</a>
+<a href="#">Giriş Yap</a>
+<a href="#">Kayıt Ol</a>
 </div>
 
 </header>
@@ -191,6 +179,6 @@ color:#999;
 
 <p>Premium Casino Partner Platformu</p>
 
-<a class="bigButton" href="#">HEMEN BAŞLA</a>
+<button>HEMEN BAŞLA</button>
 
 </section>
