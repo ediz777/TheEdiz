@@ -182,3 +182,106 @@ color:#999;
 <button>HEMEN BAŞLA</button>
 
 </section>
+<section class="section">
+
+<h2>📱 Bizi Takip Edin</h2>
+
+<a class="social-card" href="https://t.me/EDIZ" target="_blank">
+<div class="social-title">📢 Telegram</div>
+<div>Katıl →</div>
+</a>
+
+<a class="social-card" href="https://instagram.com/EDIZ" target="_blank">
+<div class="social-title">📸 Instagram</div>
+<div>Takip Et →</div>
+</a>
+
+<a class="social-card" href="https://tiktok.com/@EDIZ" target="_blank">
+<div class="social-title">🎵 TikTok</div>
+<div>İzle →</div>
+</a>
+
+<a class="social-card" href="https://youtube.com/@EDIZ" target="_blank">
+<div class="social-title">▶️ YouTube</div>
+<div>Abone Ol →</div>
+</a>
+
+</section>
+
+<section class="section">
+
+<h2>🎰 Popüler Casinolar</h2>
+
+<div class="partner-grid">
+
+<div class="partner">
+<h3>BETNANO</h3>
+<p>%300 Hoş Geldin Bonusu</p>
+<br>
+<a class="menu" href="#"><span style="background:gold;padding:10px 20px;border-radius:10px;color:black;font-weight:bold;">Siteye Git</span></a>
+</div>
+
+<div class="partner">
+<h3>MATADORBET</h3>
+<p>500 Freespin</p>
+<br>
+<a class="menu" href="#"><span style="background:gold;padding:10px 20px;border-radius:10px;color:black;font-weight:bold;">Siteye Git</span></a>
+</div>
+
+<div class="partner">
+<h3>PIABET</h3>
+<p>%250 Bonus</p>
+<br>
+<a class="menu" href="#"><span style="background:gold;padding:10px 20px;border-radius:10px;color:black;font-weight:bold;">Siteye Git</span></a>
+</div>
+
+<div class="partner">
+<h3>REXBET</h3>
+<p>1000₺ Deneme Bonusu</p>
+<br>
+<a class="menu" href="#"><span style="background:gold;padding:10px 20px;border-radius:10px;color:black;font-weight:bold;">Siteye Git</span></a>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>💰 Son Kazananlar</h2>
+
+<table>
+
+<tr>
+<th>Kullanıcı</th>
+<th>Oyun</th>
+<th>Kazanç</th>
+</tr>
+
+<tr>
+<td>Ah***</td>
+<td>Sweet Bonanza</td>
+<td>42.500₺</td>
+</tr>
+
+<tr>
+<td>Me***</td>
+<td>Gates of Olympus</td>
+<td>18.900₺</td>
+</tr>
+
+<tr>
+<td>Ke***</td>
+<td>Zeus vs Hades</td>
+<td>91.000₺</td>
+</tr>
+
+<tr>
+<td>Em***</td>
+<td>Big Bass</td>
+<td>27.000₺</td>
+</tr>
+
+</table>
+
+</section>
