@@ -285,3 +285,69 @@ color:#999;
 </table>
 
 </section>
+<footer>
+
+<h2 style="color:#FFD700;">EDIZ.WIN</h2>
+
+<p>© 2026 Tüm Hakları Saklıdır.</p>
+
+</footer>
+
+<div style="
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+background:#111;
+display:flex;
+justify-content:space-around;
+padding:15px 0;
+border-top:2px solid gold;
+">
+
+<a href="#" style="color:white;text-decoration:none;font-size:14px;">🏠<br>Ana Sayfa</a>
+
+<a href="#" style="color:white;text-decoration:none;font-size:14px;">🎁<br>Bonuslar</a>
+
+<a href="#" style="color:white;text-decoration:none;font-size:14px;">🎰<br>Casinolar</a>
+
+<a href="#" style="color:white;text-decoration:none;font-size:14px;">💎<br>VIP</a>
+
+<a href="#" style="color:white;text-decoration:none;font-size:14px;">☰<br>Menü</a>
+
+</div>
+
+<script>
+
+const winnerRows=document.querySelectorAll("table tr");
+
+let i=1;
+
+setInterval(()=>{
+
+winnerRows.forEach((row,index)=>{
+
+if(index!==0){
+
+row.style.opacity=".45";
+
+}
+
+});
+
+winnerRows[i].style.opacity="1";
+
+i++;
+
+if(i>=winnerRows.length){
+
+i=1;
+
+}
+
+},1800);
+
+</script>
+
+</body>
+</html>
